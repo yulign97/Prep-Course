@@ -91,10 +91,10 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero===10 || numero===5) {
-    return 'true';
+    return true;
   }
   else { 
-    return 'false';
+    return false;
   }
 }
 
@@ -103,9 +103,9 @@ function estaEnRango(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero<50 && numero>20) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 
@@ -126,10 +126,10 @@ function esEntero(numero) {
  // }
 
   if (numero === Math.floor (numero)) { 
-  return 'true';
+  return true;
   } 
   else {
-  return 'false';
+  return false;
   }
  
 }
@@ -170,7 +170,7 @@ function operadoresLogicos(num1, num2, num3) {
       return num3+1;
     }
     else {
-      return 'false'
+      return false
     }
 }
 
@@ -181,18 +181,18 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   if (numero<2) {
-    return 'false';
+    return false;
   }
   if (numero===2) {
-    return 'true';
+    return true;
   }
   for (var i=2 ; i<numero ; i++) {// ¿por que aqui no puede ser var i >2 ? si cuando numero sea 2 : 
     //2 % 2 === 0
     if (numero%i===0){
-      return 'false';
+      return false;
     }
     else {
-      return 'true';
+      return true;
     }
   }
 
@@ -229,10 +229,10 @@ function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   if (numero>99 && numero<1000 ) {
-    return 'true';
+    return true;
   }
 else {
-  return 'false';
+  return false;
 }
 }
 
