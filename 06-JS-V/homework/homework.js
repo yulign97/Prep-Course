@@ -9,7 +9,7 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-  function Usuario (opciones){
+    function usuario (opciones){
     this.usuario= opciones.usuario;
     this.nombre= opciones.nombre;
     this.email= opciones.email;
@@ -75,7 +75,7 @@ function agregarStringInvertida() {
     }   
 }
 
-function crearInstanciaPersona(nombre, apellido, edad, dir) {
+function crearInstanciaPersona(nombre, apellido, edad, domicilio) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el
   // ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
