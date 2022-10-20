@@ -1,30 +1,69 @@
 /*
-Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si 
+//estás tocando cualquier otro
 archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
 
 /* Ejercicio 1: Centrar el texto en un span */
 
 /* Arrancaremos este ejercicio por vos: */
+#nombre{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    color: blue;
+}
+.container{
+    color:white;
+}
+#header{
+    color:crimson
+}
+body{
+    background-image: url('https://media.istockphoto.com/photos/cosmic-black-blue-and-purple-background-with-stars-and-nebulae-picture-id1288791448?b=1&k=6&m=1288791448&s=170667a&w=0&h=H-mioyHwabT1xb2Q7imMhZK583OPWo9Dj6W4nH1uQjE=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#byYuli{
+    display:flex;
+    align-items: flex-end;
+}
 #ejercicioUno {
-
+display:block;
+text-align:center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
-
+#ejercicioDos {
+display:none;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 3: */
-
+#ejercicioTres{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 4: */
-
+#ejercicioCuatro{
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+#ejercicioCinco{
+    position: fixed;
+    top:0px;
+    left:0px;
+}
 /* Acá va tu código */
 
 
@@ -36,3 +75,11 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 /* Ejercicio 6. */
+
+
+/* Ejercicio 7. */
+#ejercicioSiete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
